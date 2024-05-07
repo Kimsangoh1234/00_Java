@@ -1,0 +1,5 @@
+package com.kh.ThreadEx;
+
+public abstract class ThreadEx {
+
+}

@@ -1,0 +1,39 @@
+package com.kh.test.main;
+
+import java.util.Scanner;
+
+public class Test4 {
+	public static void main(String[] args) {
+		/*
+		1부터 9까지 값을 스캐너로 각각 입력받아 
+		
+		더하기 빼기 곱하기 몫 출력하기
+		
+		int 숫자1
+		int 숫자2
+		 */
+		Scanner sc = new Scanner(System.in);
+		System.out.println("숫자를 입력하시오. : ");
+		int 숫자1 = sc.nextInt();
+		System.out.println("다른숫자를 입력하시오. : ");
+		int 숫자2 = sc.nextInt();
+		
+		switch(숫자1) {
+		case 1:
+			System.out.println(숫자1+숫자2);
+			break;
+		case 2:
+			System.out.println(숫자1-숫자2);
+			break;
+		case 3:
+			System.out.println(숫자1*숫자2);
+			break;
+		default :
+			System.out.println("종료");
+			return;
+		}
+		System.out.println("더하기 : "+
+		(숫자1+숫자2)+ "빼기 : "+ (숫자1-숫자2)+"곱하기 : "+(숫자1*숫자2));
+		
+	}
+}

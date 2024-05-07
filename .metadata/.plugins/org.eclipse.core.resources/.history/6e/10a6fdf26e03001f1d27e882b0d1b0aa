@@ -1,0 +1,11 @@
+package com.kh.ThreaPAX;
+
+public class 스레드연습 {
+//필드
+	int 초;
+
+	public 스레드연습(int 초) {
+		super();	this.초 = 초;
+	}
+	
+}

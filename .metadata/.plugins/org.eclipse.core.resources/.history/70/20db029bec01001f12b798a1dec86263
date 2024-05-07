@@ -1,0 +1,27 @@
+package com.kh.IteratorEx;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+public class IteratorPre {
+	public static void main(String[] args) {
+		//100,10,20,30,50,70
+		ArrayList<Integer>숫자들 = new ArrayList<>();
+		//숫자들 추가하는 방법 1탄
+		숫자들.add(100);
+		숫자들.add(70);
+		숫자들.add(10);
+		숫자들.add(20);
+		숫자들.add(30);
+		숫자들.add(50);
+		System.out.println(숫자들);
+		//숫자들.add(100); add사용
+		//숫자를 추가하는 방법 2탄
+		ArrayList<String> 색상들 = new ArrayList<>(Arrays.asList("black","white"));
+	}
+		//Arrays.asList(); 
+		
+		//Iterator 생성
+		Iterator<Integer> 반복하기 = 숫자들.iterator();
+	}
+}

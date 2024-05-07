@@ -1,0 +1,29 @@
+package com.kh.FileEx;
+
+import java.io.File;
+
+public class FilePre {
+
+	public void 메서드1() {
+		File 텍스트파일 = new File("c:/Users/user1/Desktop//newFFF/파일생성.txt");
+		
+		if(텍스트파일.createNewFile()) {
+			System.out.println("파일이 존재합니다.");
+		}else {
+			
+		}try {
+			텍스트파일.createNewFile();
+			System.out.println(텍스트파일.getName()+"파일이 생성되었습니다.");
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	public void 메서드2() {
+		//바탕화면에 뉴폴더라는 폴더 생성하고 뉴폴더 안에 파일생성.txt파일 만들기
+		
+	}
+	public static void main(String[] args) {
+		FilePre 파일= new FilePre();
+		파일.메서드1();
+	}
+}

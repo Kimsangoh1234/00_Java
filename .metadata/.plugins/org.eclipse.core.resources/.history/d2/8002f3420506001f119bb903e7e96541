@@ -1,0 +1,8 @@
+package com.kh.SocketEX;
+
+public class ClientPre {
+	public static void main(String[] args) {
+		Socket socket = new Socket("localhost", )
+				
+	}
+}
